@@ -28,7 +28,7 @@
 /**
  * Marlin release version identifier
  */
-//#define SHORT_BUILD_VERSION "bugfix-2.1.x"
+#define SHORT_BUILD_VERSION "bugfix-2.1.x by Justeksas"
 
 /**
  * Verbose version identifier which should contain a reference to the location
@@ -42,6 +42,8 @@
  * version was tagged.
  */
 //#define STRING_DISTRIBUTION_DATE "2023-02-22"
+#define STRING_DISTRIBUTION_DATE __DATE__
+#define STRING_DISTRIBUTION_TIME __TIME__
 
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
@@ -54,7 +56,7 @@
  * has a distinct Github fork— the Source Code URL should just be the main
  * Marlin repository.
  */
-//#define SOURCE_CODE_URL "github.com/MarlinFirmware/Marlin"
+#define SOURCE_CODE_URL "https://github.com/Justeksas/JustMarlin"
 
 /**
  * Default generic printer UUID.
